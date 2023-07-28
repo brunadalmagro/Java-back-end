@@ -1,0 +1,36 @@
+Decidi analisar o site Imposturas Filosóficas (https://razaoinadequada.com), que é a base do meu entretenimento, proveniente das artes e da filosofia. Além de possuir um layout maravilhoso, o site apresenta uma grande interação para os usuários, fazendo uso extensivo de APIs e proporcionando uma experiência visualmente atraente.
+
+O front-end deste e de qualquer site é a camada de apresentação visual e interativa para fornecer uma experiência agradável e intuitiva aos visitantes.
+Tendo o layout muito moderno e organizado é possível destacar a harmonia entra as cores e elementos, que cuidadosamente transmitem a identidade e proposta da 'marca'.
+A base deste para este design interativo é HTML, CSS e JavaScript, bem como frameworks e bibliotecas para importação de animações interativas;
+
+- Na página inicial do site possui uma barra superior de menu, onde cada opção retorna a página (url) correspondente:
+	- Sobre
+	- Fundamentos
+	- Filósofos 
+	- Podcast 
+	- Loja, etc;
+- Após alguns segundos do inicio de carregamento da página inicial, surge um pop-up de incrição para os serviços e canais;
+- Abaixo é possível vizualizar os canais e serviços;
+- Rolagem dinamica permite ao usuário navegar entre alguns tópicos, cada um contendo animação de imagem e textos:
+	- Artigos com imagens
+	- Podcasts 
+	- Grupo de estudos
+	- Assinatura, etc;
+Incluindo uma funcionalidade muito prática de acesso direto ao player dos podcasts;
+- Abaixo frame para assinaturas e redes sociais.
+
+No back-end a análise se torna um pouco mais dificil, mas é possível identificar algumas características importantes:
+- Conexão com servidores 
+	- Por não possuir uma quantia exorbitante de acessos mensais, estes estão disponíveis no sistema/plataforma de hopedagem do site; 
+- Banco de dados modelo sql
+	- Para gerir e armazenar diversas informações vindas tanto de usuários quanto do próprio site; 
+- Criptografia de dados dos usuários;
+- Autenticação de segurança;
+- Várias API's para acessar e integrar dados de terceiros
+	- Bem como redes sociais, autenticação, etc;
+
+E muito provavelmente algum tipo de CMS para gerir grande capacidade de acesso, publicação de artigos, multimídia, entre outros.
+
+ 
+
