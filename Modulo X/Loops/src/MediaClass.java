@@ -20,11 +20,11 @@ public class MediaClass{
         System.out.println("A media é: " + media);
 
         if (media >=7){
-            System.out.println("Aluno Aprovado");
-        } else if(media >=6.0 && media <=6.9){
-            System.out.println("Aluno de recuperação");
+            System.out.println("Aluno = Aprovado");
+        } else if(media >=5.0 && media <=6.9){
+            System.out.println("Aluno = Recuperação");
         } else {
-            System.out.println("Aluno reprovado");
+            System.out.println("Aluno = Reprovado");
         }
     }
 }
