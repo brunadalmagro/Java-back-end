@@ -21,7 +21,7 @@ public class MediaClass{
 
         if (media >=7){
             System.out.println("Aluno = Aprovado");
-        } else if(media >=5.0 && media <=6.9){
+        } else if(media >=5.0){
             System.out.println("Aluno = Recuperação");
         } else {
             System.out.println("Aluno = Reprovado");
