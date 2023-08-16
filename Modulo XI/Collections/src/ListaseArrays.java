@@ -12,9 +12,8 @@ public class ListaseArrays {
         pessoas.add(new Pessoa("Antônio Castro", "masculino"));
         pessoas.add(new Pessoa("Roger Roger", "masculino"));
 
-        Collections.sort(pessoas); // Ordena a lista de pessoas em ordem alfabética
+        Collections.sort(pessoas);
 
-        // Imprime o cabeçalho
         System.out.println("Pessoas ordenadas em ordem alfabética:");
 
         // Itera sobre a lista de pessoas e imprime
@@ -22,11 +21,10 @@ public class ListaseArrays {
             System.out.println(pessoa);
         }
 
-        // Separa as pessoas por grupos de sexo
+        // Separa as pessoas por grupos e imprime
         Map<String, List<Pessoa>> gruposPorSexo = pessoas.stream()
                 .collect(Collectors.groupingBy(Pessoa::getSexo));
 
-        // Imprime os grupos separados por sexo
         System.out.println("\nGrupos por Sexo:");
         gruposPorSexo.forEach((sexo, pessoasDoSexo) -> {
             System.out.println(sexo + ":");
@@ -38,12 +36,10 @@ public class ListaseArrays {
 // Definição da classe Pessoa usando 'record' (introduzido no Java 16)
 record Pessoa(String nomeCompleto, String sexo) implements Comparable<Pessoa> {
 
-    //Obtem nome completo
+    // Obtém nome e sexo
     public String getNomeCompleto() {
         return nomeCompleto;
     }
-
-    // Obtem sexo
     public String getSexo() {
         return sexo;
     }
