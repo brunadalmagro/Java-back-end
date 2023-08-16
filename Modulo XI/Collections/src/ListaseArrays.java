@@ -1,8 +1,10 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
-public class ListaseArrays
-{
+public class ListaseArrays {
     public static void main(String[] args) {
         ArrayList<Pessoa> pessoas = new ArrayList<>(); // Array list para armazenar objetos do tipo pessoa
 
@@ -19,14 +21,31 @@ public class ListaseArrays
         for (Pessoa pessoa : pessoas) {
             System.out.println(pessoa);
         }
+
+        // Separa as pessoas por grupos de sexo
+        Map<String, List<Pessoa>> gruposPorSexo = pessoas.stream()
+                .collect(Collectors.groupingBy(Pessoa::getSexo));
+
+        // Imprime os grupos separados por sexo
+        System.out.println("\nGrupos por Sexo:");
+        gruposPorSexo.forEach((sexo, pessoasDoSexo) -> {
+            System.out.println(sexo + ":");
+            pessoasDoSexo.forEach(pessoa -> System.out.println("  " + pessoa.getNomeCompleto()));
+        });
     }
 }
+
 // Definição da classe Pessoa usando 'record' (introduzido no Java 16)
 record Pessoa(String nomeCompleto, String sexo) implements Comparable<Pessoa> {
 
-    //Obtem nome comlpeto
+    //Obtem nome completo
     public String getNomeCompleto() {
         return nomeCompleto;
+    }
+
+    // Obtem sexo
+    public String getSexo() {
+        return sexo;
     }
 
     // Sobrescreve o método toString para formatar a saída ao imprimir uma Pessoa
