@@ -27,7 +27,7 @@ public class Cliente {
     }
 
     public Cliente(String cpfCliente, String nomeCliente, String sobrenomeCliente, String telefoneCliente, String enderecoCliente, String cepCliente, String cidadeCliente, String paisCliente) {
-        this.cpf = Long.valueOf(cpfCliente); // Convert String to Long
+        this.cpf = Long.valueOf(cpfCliente); 
         this.nome = nomeCliente;
         this.sobrenome = sobrenomeCliente;
         this.telefone = telefoneCliente;

@@ -25,8 +25,6 @@ public class ClientGUI extends javax.swing.JFrame {
         botaoConsultar.addActionListener(this::botaoConsultarActionPerformed);
     }
 
-   ClienteMapDAO clienteMapDAO = new ClienteMapDAO();
-
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -305,41 +303,38 @@ public class ClientGUI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
     private final ClienteMapDAO clienteDAO = new ClienteMapDAO(); //Instância da classe de gerenciamento de clientes em memória
     
-    
     private void botaoLimparActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoLimparActionPerformed
     String cpfExclusao = JOptionPane.showInputDialog(this, "Digite o CPF do cliente para exclusão:", "Excluir por CPF", JOptionPane.QUESTION_MESSAGE);
 
-    // Verifica se o usuário inseriu um CPF válido
+    //Verifica se o usuário inseriu um CPF válido
     if (cpfExclusao != null && !cpfExclusao.isEmpty()) {
         try {
             Long cpfNumber = Long.valueOf(cpfExclusao);
 
-            // Chama o método de exclusão no DAO
+            //Chama o método de exclusão no DAO
             clienteDAO.excluir(cpfNumber);
 
             DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
 
-            // Percorre as linhas da tabela e remove a linha com o CPF correspondente
+            //Percorre as linhas da tabela e remove a linha com o CPF correspondente
             for (int i = 0; i < model.getRowCount(); i++) {
-                Long cpfTabela = (Long) model.getValueAt(i, 2); // Coluna do CPF
+                Long cpfTabela = (Long) model.getValueAt(i, 2);
 
                 if (cpfTabela.equals(cpfNumber)) {
                     model.removeRow(i);
                     JOptionPane.showMessageDialog(this, "Cliente excluído com sucesso", "Sucesso", JOptionPane.INFORMATION_MESSAGE);
-                    return; // Sai do método após a exclusão bem-sucedida
+                    return;
                 }
             }
 
-            // Se não encontrar o cliente na tabela
+            //Tratamentos de erro
             JOptionPane.showMessageDialog(this, "Cliente não encontrado na tabela", "Erro", JOptionPane.INFORMATION_MESSAGE);
         } catch (NumberFormatException e) {
-            // Tratamento de erro se o CPF não for um número válido
             JOptionPane.showMessageDialog(this, "CPF inválido. Certifique-se de inserir apenas números.", "Erro", JOptionPane.ERROR_MESSAGE);
         }
     } else {
         JOptionPane.showMessageDialog(this, "CPF de exclusão inválido.", "Erro", JOptionPane.ERROR_MESSAGE);
     }
-
     }//GEN-LAST:event_botaoLimparActionPerformed
     
     private void entradaEnderecoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_entradaEnderecoActionPerformed
@@ -361,7 +356,7 @@ public class ClientGUI extends javax.swing.JFrame {
     private void botaoSalvarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoSalvarActionPerformed
         nomeCliente = entradaNome.getText();
         sobrenomeCliente = entradaSobrenome.getText();
-        cpfCliente = entradaCpf.getText(); // Armazenar como String
+        cpfCliente = entradaCpf.getText();
         telefoneCliente = entradaTelefone.getText();
         enderecoCliente = entradaEndereco.getText();
         cepCliente = entradaCep.getText();
@@ -369,8 +364,8 @@ public class ClientGUI extends javax.swing.JFrame {
         paisCliente = entradaPais.getText();
 
         Cliente cliente = new Cliente(cpfCliente, nomeCliente, sobrenomeCliente, telefoneCliente, enderecoCliente, cepCliente, cidadeCliente, paisCliente);
-        clienteDAO.cadastrar(cliente); // Cadastrar cliente na memória
-
+        clienteDAO.cadastrar(cliente); 
+        
         //Limpar os campos após salvar
         entradaNome.setText("");
         entradaSobrenome.setText("");
@@ -383,18 +378,8 @@ public class ClientGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_botaoSalvarActionPerformed
            
     private void botaoAtualizarActionPerformed(java.awt.event.ActionEvent evt) {
-        jTable1.addMouseListener(new java.awt.event.MouseAdapter() {
-    @Override
-    public void mouseClicked(java.awt.event.MouseEvent evt) {
-        int selectedRow = jTable1.getSelectedRow();
-        if (selectedRow != -1) {
-            // Habilitar o botão "Excluir" quando um registro estiver selecionado
-            botaoLimpar.setEnabled(true);
-        }
-    }
-});
     DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
-    model.setRowCount(0); //Limpar os dados atuais da tabela
+    model.setRowCount(0); 
     
     //Buscar todos os clientes do DAO
     Collection<Cliente> clientes = clienteDAO.buscarTodos();
@@ -425,7 +410,7 @@ public class ClientGUI extends javax.swing.JFrame {
 
             DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
             
-            //Limpa a tabela deixando apenas o resultado encontrado
+            //Limpa a tabela dxibe resultado
             model.setRowCount(0);
 
             if (clienteEncontrado != null) {
@@ -446,7 +431,6 @@ public class ClientGUI extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(this, "Cliente não encontrado", "ERRO", JOptionPane.INFORMATION_MESSAGE);
             }
         } catch (NumberFormatException e) {
-            //Tratamento de erro se o CPF não for um número válido
             JOptionPane.showMessageDialog(this, "CPF inválido. Certifique-se de inserir apenas números.", "Erro", JOptionPane.ERROR_MESSAGE);
         }
     } else {
