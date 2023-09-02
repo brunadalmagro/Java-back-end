@@ -1,17 +1,23 @@
 package Sistema;
 
-/*
-* @author Bruna
-*/
-
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Implementação de DAO de Cliente usando um mapa.
+ * Esta classe permite cadastrar, consultar, alterar e excluir clientes em um mapa.
+ * 
+ * @author Bruna
+ */
 public class ClienteMapDAO implements IClienteDAO {
 
     private final Map<Long, Cliente> map;
 
+    /**
+     * Construtor padrão da classe ClienteMapDAO.
+     * Inicializa o mapa que será usado para armazenar os clientes.
+     */
     public ClienteMapDAO() {
         this.map = new HashMap<>();
     }
@@ -41,7 +47,7 @@ public class ClienteMapDAO implements IClienteDAO {
             clienteCadastrado.setCep(cliente.getCep());
         }
     }
-
+    
     @Override
     public Cliente consultar(Long cpf) {
         return this.map.get(cpf);
@@ -50,5 +56,9 @@ public class ClienteMapDAO implements IClienteDAO {
     @Override
     public Collection<Cliente> buscarTodos() {
         return this.map.values();
+    }
+
+    void excluir(String cpfExcluir) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
