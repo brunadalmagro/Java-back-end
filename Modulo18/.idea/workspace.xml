@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb1119a9-5f8e-40bf-80f5-31cae0b9bbd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Modulo17/.idea/Modulo18.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Modulo17/Exemplo/Exemplo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Modulo17/Exemplo/src/com/exemplo/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Modulo17/Exemplo/src/com/exemplo/ServicoEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Modulo17/Generics/Generics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exceptions and Anotations/Exceptions and Anotations.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exceptions and Anotations/src/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exceptions and Anotations/src/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exceptions and Anotations/src/Tabela.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generics/Generics.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generics/src/Carro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generics/src/Honda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generics/src/ListaCarros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Generics/Carro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Generics/Honda$Civic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Generics/Honda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Generics/ListaCarros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +30,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="21" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Modulo19" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -87,5 +68,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
