@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b8d6937-34cc-4c68-bb18-74f42ad1ada8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Modulo23/Modulo24.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Modulo24-1/testes/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Modulo24-1/testes/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Modulo24.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/TesteCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/ClienteDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/ClienteDaoMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/ContratoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/IClienteDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/IContratoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/mock/ContratoDaoMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/service/ClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/service/ContratoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/service/IContratoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testes2/testes2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Modulo22/src/br/com/strems/StreamsLambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Modulo22/src/br/com/strems/StreamsLambdas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo24.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Modulo24/br/com/tests/Pessoas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Modulo24/br/com/tests/StreamsLambdasTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/tests/StreamsLambdasTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/testes2/br/com/testept2/dao/mock/ContratoDaoMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testes2/br/com/testept2/dao/mock/ContratoDaoMock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/testes2/br/com/testept2/service/ContratoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testes2/br/com/testept2/service/ContratoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/testes2/br/com/testept2/service/IContratoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testes2/br/com/testept2/service/IContratoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/testes2/ContratoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/testes2/ContratoServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/mock/ContratoDaoMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/mock/ContratoDaoMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testes2/src/br/com/testept2/service/ContratoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/service/ContratoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testes2/src/br/com/testept2/service/IContratoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/service/IContratoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testes2/test/ContratoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testes2/test/ContratoServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ContratoServiceTest.buscarContratoTest">
     <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes2" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,8 +86,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContratoServiceTest.buscarContratoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContratoServiceTest" />
+      <option name="METHOD_NAME" value="buscarContratoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContratoServiceTest.esperadoErroNoSalvarComBancoDeDadosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContratoServiceTest" />
+      <option name="METHOD_NAME" value="esperadoErroNoSalvarComBancoDeDadosTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContratoServiceTest.excluirContratoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContratoServiceTest" />
+      <option name="METHOD_NAME" value="excluirContratoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContratoServiceTest.salvarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContratoServiceTest" />
+      <option name="METHOD_NAME" value="salvarTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContratoServiceTest.buscarContratoTest" />
+        <item itemvalue="JUnit.ContratoServiceTest.excluirContratoTest" />
+        <item itemvalue="JUnit.ContratoServiceTest.esperadoErroNoSalvarComBancoDeDadosTest" />
+        <item itemvalue="JUnit.ContratoServiceTest.salvarTest" />
         <item itemvalue="JUnit.AllTests" />
       </list>
     </recent_temporary>
@@ -129,5 +157,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/testes2/test/ContratoServiceTest.java</url>
+          <line>27</line>
+          <properties class="ContratoServiceTest" method="buscarContratoTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
