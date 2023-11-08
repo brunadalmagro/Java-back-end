@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b8d6937-34cc-4c68-bb18-74f42ad1ada8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Modulo23/Modulo24.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modulo24-1/testes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modulo24-1/testes/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Modulo24.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/TesteCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/ClienteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/ClienteDaoMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/ContratoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/IClienteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/IContratoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/mock/ContratoDaoMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/service/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/service/ContratoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/service/IContratoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes2/testes2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Modulo22/src/br/com/strems/StreamsLambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Modulo22/src/br/com/strems/StreamsLambdas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulo24.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Modulo24/br/com/tests/Pessoas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Modulo24/br/com/tests/StreamsLambdasTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/tests/StreamsLambdasTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2XDR6Ldfs8XcJ5stnB9FEEmwvHX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "last_opened_file_path": "D:/Documentos/Java-back-end/Modulo24",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.testept2.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documentos\Java-back-end\Modulo24\testes2\testes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documentos\Java-back-end\Modulo24\testes2\test" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="br.com.testept2.dao" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AllTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AllTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b8d6937-34cc-4c68-bb18-74f42ad1ada8" name="Changes" comment="" />
+      <created>1698161487689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698161487689</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
