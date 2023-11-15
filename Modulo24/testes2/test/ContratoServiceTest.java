@@ -29,11 +29,11 @@ public class ContratoServiceTest {
         IContratoDao dao = new ContratoDaoMock();
         IContratoService service = new ContratoService(dao);
 
-        //Simulação de contrato válido
+        // Simulação de contrato válido
         int contratoId = 1;
         ContratoService contrato = service.buscarContrato(contratoId);
 
-        //Validação
+        // Validação
         Assert.assertNotNull(contrato);
         Assert.assertEquals(contratoId, contrato.getId());
     }
