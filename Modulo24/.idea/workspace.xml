@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b8d6937-34cc-4c68-bb18-74f42ad1ada8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Modulo20-21/.idea/Modulo20-21.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modulo20-21/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modulo20-21/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modulo20-21/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modulo20-21/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modulo20-21/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modulo20-21/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modulo23/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modulo25/.idea/Modulo25.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Modulo18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Modulo18/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testes2/br/com/testept2/dao/mock/ContratoDaoMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testes2/br/com/testept2/dao/mock/ContratoDaoMock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testes2/br/com/testept2/service/ContratoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testes2/br/com/testept2/service/ContratoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/mock/ContratoDaoMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/dao/mock/ContratoDaoMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testes2/src/br/com/testept2/service/ContratoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/testes2/src/br/com/testept2/service/ContratoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testes2/test/ContratoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testes2/test/ContratoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/testes2/br/com/testept2/service/IContratoService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,22 +46,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documentos/Java-back-end/Modulo24&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "last_opened_file_path": "D:/ExemplosVendas",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.testept2.service" />
@@ -126,10 +132,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ContratoServiceTest.buscarContratoTest" />
+        <item itemvalue="JUnit.ContratoServiceTest.salvarTest" />
         <item itemvalue="JUnit.ContratoServiceTest" />
         <item itemvalue="JUnit.ContratoServiceTest.excluirContratoTest" />
         <item itemvalue="JUnit.ContratoServiceTest.esperadoErroNoSalvarComBancoDeDadosTest" />
-        <item itemvalue="JUnit.ContratoServiceTest.salvarTest" />
       </list>
     </recent_temporary>
   </component>
