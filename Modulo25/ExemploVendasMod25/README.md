@@ -1,1 +1,2 @@
-Projeto feito e executado no STS(Spring Tool Suite 4)
+-> Projeto baseado no primeiro projeto CRUD
+- Testes com JUnit usando StS nativo na IDE Intellij
