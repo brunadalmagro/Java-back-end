@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExemplosJDBCAlunos/src/java/ExemplosJDBCAlunos.iml" filepath="$PROJECT_DIR$/ExemplosJDBCAlunos/src/java/ExemplosJDBCAlunos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Modulo29.iml" filepath="$PROJECT_DIR$/.idea/Modulo29.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploJDBC/src/main/main.iml" filepath="$PROJECT_DIR$/ExemploJDBC/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploJDBC/src/test/test.iml" filepath="$PROJECT_DIR$/ExemploJDBC/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemplosJDBCAlunos/src/test/test1.iml" filepath="$PROJECT_DIR$/ExemplosJDBCAlunos/src/test/test1.iml" />
+    </modules>
+  </component>
+</project>
