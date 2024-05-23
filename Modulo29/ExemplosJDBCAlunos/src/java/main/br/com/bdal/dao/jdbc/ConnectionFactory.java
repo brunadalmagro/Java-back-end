@@ -34,8 +34,10 @@ public class ConnectionFactory {
 
 	private static Connection initConnection() {
 		try {
-            return DriverManager.getConnection("jdbc:postgresql://localhost:5432/vendas_online_2", "postgres", "1234");
-        } catch (SQLException e) {
+			Class.forName("org.postgresql.Driver");
+
+			return DriverManager.getConnection("jdbc:postgresql://localhost:5432/vendas_online_2", "postgres", "1234");
+        } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
 	}
