@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="javax.persistence-api-2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/arquivos para o projeeto de bosta/javax.persistence-api-2.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/arquivos para o projeeto de bosta/hibernate-core-5.6.7.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/arquivos para o projeeto de bosta/postgresql-42.2.1 (1).jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

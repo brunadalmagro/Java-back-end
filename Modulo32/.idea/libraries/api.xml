@@ -1,0 +1,38 @@
+<component name="libraryTable">
+  <library name="api">
+    <CLASSES />
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/docs/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/backends/jgroups/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/backends/jgroups/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/backends/jms/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/backends/jms/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/build-config/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/build-config/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/elasticsearch-aws/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/elasticsearch/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/elasticsearch/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/engine/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/engine/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/integrationtest/elasticsearch/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/integrationtest/jdk9-modules/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/integrationtest/jdk9-modules/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/integrationtest/jms/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/integrationtest/narayana/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/integrationtest/osgi/karaf-it/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/integrationtest/performance/engine-elasticsearch/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/integrationtest/performance/engine-lucene/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/integrationtest/performance/orm/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/integrationtest/performance/sandbox/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/integrationtest/spring/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/integrationtest/wildfly/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/orm/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/orm/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/serialization/avro/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/serialization/avro/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/hibernate-search-5.8.0.Final/project/testing/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Modulo32.iml" filepath="$PROJECT_DIR$/.idea/Modulo32.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemplosMod32/src/main/main.iml" filepath="$PROJECT_DIR$/ExemplosMod32/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mod32.iml" filepath="$PROJECT_DIR$/.idea/mod32.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemplosMod32/src/test/test.iml" filepath="$PROJECT_DIR$/ExemplosMod32/src/test/test.iml" />
     </modules>
   </component>
 </project>

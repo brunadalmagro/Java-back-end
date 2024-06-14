@@ -1,0 +1,137 @@
+Documentação do Teste Unitário de Produto
+Introdução
+Este documento fornece uma visão detalhada da configuração, execução e resultados dos testes unitários realizados para a entidade Produto em um projeto Java que utiliza Hibernate e PostgreSQL.
+
+Configuração do Ambiente
+Dependências:
+
+Hibernate ORM 5.6.7.Final
+PostgreSQL Driver org.postgresql.Driver
+C3P0 para pooling de conexões
+Arquivos de configuração:
+
+persistence.xml: Define a unidade de persistência ExemploJPA.
+Banco de Dados:
+
+URL de Conexão: jdbc:postgresql://localhost:5432/vendas_online_2
+Usuário: 
+Senha: 
+Estrutura da Classe Produto
+java
+Copiar código
+@Entity
+public class Produto {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    
+    private String nome;
+    
+    private double preco;
+
+    // Getters and setters
+}
+Métodos Testados
+Inserir Produto (inserirProduto)
+Buscar Produto por ID (buscarPorId)
+Buscar Todos os Produtos (buscarTodos)
+Excluir Produto (excluirProduto)
+Execução dos Testes
+Inicialização do Hibernate:
+
+O Hibernate é configurado usando as propriedades fornecidas no persistence.xml.
+O Hibernate detecta a unidade de persistência ExemploJPA e inicia a configuração.
+Configuração da Conexão com o Banco de Dados:
+
+O Hibernate utiliza o driver PostgreSQL (org.postgresql.Driver) para se conectar ao banco de dados vendas_online_2 no servidor local.
+As credenciais de conexão são configuradas corretamente.
+Criação da Tabela Produto:
+
+A tabela Produto é criada automaticamente no banco de dados pelo Hibernate, conforme definido pelas anotações na classe Produto.
+Pooling de Conexões:
+
+O C3P0 é configurado para gerenciar o pooling de conexões, o que melhora a eficiência do gerenciamento de conexões com o banco de dados.
+Logs de Execução
+Início da Execução:
+
+yaml
+Copiar código
+jun. 14, 2024 3:34:12 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: ExemploJPA]
+Versão do Hibernate:
+
+yaml
+Copiar código
+jun. 14, 2024 3:34:12 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.6.7.Final
+Configuração do C3P0:
+
+csharp
+Copiar código
+jun. 14, 2024 3:34:13 PM org.hibernate.c3p0.internal.C3P0ConnectionProvider configure
+INFO: HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/vendas_online_2
+Criação da Tabela Produto:
+
+sql
+Copiar código
+Hibernate: 
+    create table Produto (
+       id  bigserial not null,
+        nome varchar(255),
+        preco float8 not null,
+        primary key (id)
+    )
+Operações de CRUD:
+
+Inserção:
+
+sql
+Copiar código
+Hibernate: 
+    insert 
+    into
+        Produto
+        (nome, preco) 
+    values
+        (?, ?)
+Consulta por ID:
+
+vbnet
+Copiar código
+Hibernate: 
+    select
+        produto0_.id as id1_0_0_,
+        produto0_.nome as nome2_0_0_,
+        produto0_.preco as preco3_0_0_ 
+    from
+        Produto produto0_ 
+    where
+        produto0_.id=?
+Consulta de Todos os Produtos:
+
+vbnet
+Copiar código
+Hibernate: 
+    select
+        produto0_.id as id1_0_,
+        produto0_.nome as nome2_0_,
+        produto0_.preco as preco3_0_ 
+    from
+        Produto produto0_
+Exclusão:
+
+sql
+Copiar código
+Hibernate: 
+    delete 
+    from
+        Produto 
+    where
+        id=?
+Resultados dos Testes
+Status:
+
+Todos os testes foram executados com sucesso.
+O código terminou a execução sem erros (Process finished with exit code 0).
+Conclusão
+A execução dos testes unitários confirma que as operações básicas de CRUD (Criar, Ler, Atualizar, Deletar) para a entidade Produto estão funcionando conforme o esperado. A configuração do Hibernate e do C3P0 está correta, e a integração com o banco de dados PostgreSQL foi bem-sucedida.
