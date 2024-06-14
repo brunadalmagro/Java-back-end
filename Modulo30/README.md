@@ -1,1 +1,1 @@
-Projeto feito e executado no STS(Spring Tool Suite 4)
+Projeto feito e executado no Intellij
