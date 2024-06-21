@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExemploJPAHibernateOGMMongoDB/ExemploJPAHibernateOGMMongoDB.iml" filepath="$PROJECT_DIR$/ExemploJPAHibernateOGMMongoDB/ExemploJPAHibernateOGMMongoDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploJPAMongoDBMorphia/ExemploJPAMongoDBMorphia.iml" filepath="$PROJECT_DIR$/ExemploJPAMongoDBMorphia/ExemploJPAMongoDBMorphia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploSpringDataMongo/ExemploSpringDataMongo.iml" filepath="$PROJECT_DIR$/ExemploSpringDataMongo/ExemploSpringDataMongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mod34.iml" filepath="$PROJECT_DIR$/.idea/mod34.iml" />
+    </modules>
+  </component>
+</project>
