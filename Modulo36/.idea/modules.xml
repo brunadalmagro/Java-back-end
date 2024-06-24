@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/mod36-1.iml" filepath="$PROJECT_DIR$/.idea/mod36-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exemplos_internet/spring-data-examples/spring-data-examples.iml" filepath="$PROJECT_DIR$/exemplos_internet/spring-data-examples/spring-data-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exemplos_internet/spring-data-examples/multi-store/spring-data-multi-store-example.iml" filepath="$PROJECT_DIR$/exemplos_internet/spring-data-examples/multi-store/spring-data-multi-store-example.iml" />
+    </modules>
+  </component>
+</project>
