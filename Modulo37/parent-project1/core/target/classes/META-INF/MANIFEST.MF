@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: Pichau
+Build-Jdk: 21
+Main-Class: br.com.rpires.App
+Created-By: Maven Integration for Eclipse
+
