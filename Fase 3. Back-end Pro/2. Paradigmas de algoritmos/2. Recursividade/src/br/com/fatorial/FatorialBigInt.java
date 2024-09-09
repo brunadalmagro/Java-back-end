@@ -40,6 +40,6 @@ public class FatorialBigInt {
         String resultadoFormatadoN = formatarResultadoFatorial(resultadoN);
 
         // Exibir o resultado
-        System.out.println("Fatorial de " + n + " é: " + resultadoFormatadoN);
+        System.out.println("O fatorial de " + n + " é: " + resultadoFormatadoN);
     }
 }
