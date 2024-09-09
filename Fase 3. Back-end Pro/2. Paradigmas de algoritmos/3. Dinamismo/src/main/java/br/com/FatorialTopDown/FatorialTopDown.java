@@ -1,4 +1,4 @@
-package br.com.fatorialTopDown;
+package br.com.FatorialTopDown;
 
 import java.math.BigInteger;
 import java.text.DecimalFormat;
@@ -53,15 +53,12 @@ public class FatorialTopDown {
         BigInteger resultadoN1 = calcularFatorialTopDown(n1);
         BigInteger resultadoN2 = calcularFatorialTopDown(n2);
 
-        // Formatando e exibindo os resultados
+        // Resultados
         System.out.println("Fatorial de " + n + " é: " + formatarResultadoFatorial(resultadoN));
         System.out.println("Fatorial de " + n1 + " é: " + formatarResultadoFatorial(resultadoN1));
         System.out.println("Fatorial de " + n2 + " é: " + formatarResultadoFatorial(resultadoN2));
 
-        // Exibir a versão completa em decimal abaixo, se necessário
-        System.out.println("\nVersão completa em decimal:");
-        System.out.println("Fatorial de " + n + " em decimal: " + resultadoN);
-        System.out.println("Fatorial de " + n1 + " em decimal: " + resultadoN1);
+        // Exibir a versão completa em decimal do fatorial de 100
         System.out.println("Fatorial de " + n2 + " em decimal: " + resultadoN2);
     }
 }
