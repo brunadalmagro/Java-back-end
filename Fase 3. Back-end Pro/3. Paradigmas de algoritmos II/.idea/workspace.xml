@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e48f28f4-07a5-47f6-ac3a-6296c0701595" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/.idea/2. Paradigmas de algoritmos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/.idea/runConfigurations/.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/1. Exercicio Fibonacci.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/Fibonacci/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/Fibonacci/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/Fibonacci/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/Fibonacci/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/Fibonacci/bin/com/exemplo/ProgramacaoDinamica/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/Fibonacci/bin/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/Fibonacci/src/com/exemplo/ProgramacaoDinamica/Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/1. Exemplo Fibonacci - Programação dinamica/Fibonacci/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/2. Recursividade/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/2. Recursividade/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/2. Recursividade/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/2. Recursividade/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/2. Recursividade/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/2. Recursividade/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/2. Recursividade/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/2. Recursividade/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/2. Recursividade/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/2. Recursividade/bin/br/com/fatorial/FatorialBigInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/2. Recursividade/bin/br/com/fatorial/calculoFatorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/2. Recursividade/src/br/com/fatorial/FatorialBigInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/2. Recursividade/src/br/com/fatorial/calculoFatorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/bin/com/ProgramacaoDinamica/CalculoFatorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/bin/com/ProgramacaoDinamica/FatorialBottomUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/bin/com/ProgramacaoDinamica/FatorialTopDown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/src/com/ProgramacaoDinamica/CalculoFatorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/src/com/ProgramacaoDinamica/FatorialBottomUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/src/com/ProgramacaoDinamica/FatorialTopDown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/src/main/java/br/com/FatorialTopDown/FatorialTopDown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/src/main/java/com/FatorialBottomUp/BottomUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/3. Dinamismo/src/main/resources/com/example/demo/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/6. Material adicional/Cálculo Fatorial Usando Programação Dinâmica.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/6. Material adicional/Cálculo Fatorial Usando Programação Recursiva.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Paradigmas de algoritmos/6. Material adicional/Material suporte.pptx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2mG6tqFxU7eDIn5OtbehnHUFvkE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/1.Documentos/2.Java-back-end-master/Java-back-end/Fase 3. Back-end Pro/3. Paradigmas de algoritmos II",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e48f28f4-07a5-47f6-ac3a-6296c0701595" name="Changes" comment="" />
+      <created>1726690783043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726690783043</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
