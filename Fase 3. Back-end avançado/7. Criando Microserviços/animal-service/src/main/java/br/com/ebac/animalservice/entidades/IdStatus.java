@@ -25,12 +25,4 @@ public class IdStatus {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-
-    public List<Animal> getAnimais() {
-        return animais;
-    }
-
-    public void setAnimais(List<Animal> animais) {
-        this.animais = animais;
-    }
 }

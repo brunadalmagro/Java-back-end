@@ -15,7 +15,7 @@ VALUES ('Cachorro', 'macho', 'Thor', 10, 'Pitbull', CURRENT_DATE -10 DAY, 'Velhi
 
 -- Animal com status "Em Avaliação" (id_status = 3)
 INSERT INTO animal (tipo_animal, sexo, nome_provisorio, idade_estimada, raca, data_entrada, condicoes_chegada, nome_recebedor, porte, id_status)
-VALUES ('Cachorro', 'femea', 'Lady', 3, 'Pinscher', CURRENT_DATE, '50% raiva, 50% tremedeira', 'CLeber', 'Pequeno', 3);
+VALUES ('Cachorro', 'femea', 'Lady', 3, 'Pinscher', CURRENT_DATE, '50% raiva, 50% tremedeira', 'Cleber', 'Pequeno', 3);
 
 -- Animal com status "Disponível" (id_status = 1)
 INSERT INTO animal (tipo_animal, sexo, nome_provisorio, idade_estimada, raca, data_entrada, condicoes_chegada, nome_recebedor, porte, id_status)
