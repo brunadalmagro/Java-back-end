@@ -1,8 +1,6 @@
 package br.com.ebac.animalservice.entidades;
 
 import jakarta.persistence.*;
-import jakarta.persistence.criteria.CriteriaBuilder;
-
 import java.sql.Date;
 
 @Entity
@@ -12,36 +10,44 @@ public class Animal {
     @Column(name = "id", nullable = false)
     private Integer id;
 
-    public Integer getId(){
-        return id;
-    }
+    @Column(nullable = false, name = "nome_provisorio")
+    private String nomeProvisorio;
+
+    @Column(nullable = false, name = "tipo_animal")
+    private String tipoAnimal;
 
     @Column(nullable = false)
-    private String nomeProvisorio; // nome_provisorio
+    private String sexo;
 
-    @Column(nullable = false)
+    @Column(nullable = false, name = "idade_estimada")
     private Integer idadeEstimada;
 
     @Column(nullable = false)
     private String raca;
 
-    @Column(nullable = false)
-    private Date dataEntrada;
-
-    @Column
-    private Date dataAdocao;
-
-    @Column(nullable = false)
+    @Column(nullable = false, name = "condicoes_chegada")
     private String condicoesChegada;
 
-    @Column(nullable = false)
+    @Column(nullable = false, name = "nome_recebedor")
     private String nomeRecebedor;
 
-    @Column
+    @Column(name = "data_obito")
     private Date dataObito;
 
     @Column(nullable = false)
     private String porte;
+
+    @Column(nullable = false, name = "data_entrada")
+    private Date dataEntrada;
+
+    @Column(name = "data_adocao")
+    private Date dataAdocao;
+
+    @ManyToOne
+    @JoinColumn(name = "id_status")
+    private IdStatus idStatus;
+
+    // Getters e Setters
 
     public String getNomeProvisorio() {
         return nomeProvisorio;
@@ -49,6 +55,22 @@ public class Animal {
 
     public void setNomeProvisorio(String nomeProvisorio) {
         this.nomeProvisorio = nomeProvisorio;
+    }
+
+    public String getTipoAnimal() {
+        return tipoAnimal;
+    }
+
+    public void setTipoAnimal(String tipoAnimal) {
+        this.tipoAnimal = tipoAnimal;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
     }
 
     public Integer getIdadeEstimada() {
@@ -65,22 +87,6 @@ public class Animal {
 
     public void setRaca(String raca) {
         this.raca = raca;
-    }
-
-    public Date getDataEntrada() {
-        return dataEntrada;
-    }
-
-    public void setDataEntrada(Date dataEntrada) {
-        this.dataEntrada = dataEntrada;
-    }
-
-    public Date getDataAdocao() {
-        return dataAdocao;
-    }
-
-    public void setDataAdocao(Date dataAdocao) {
-        this.dataAdocao = dataAdocao;
     }
 
     public String getCondicoesChegada() {
@@ -113,5 +119,29 @@ public class Animal {
 
     public void setPorte(String porte) {
         this.porte = porte;
+    }
+
+    public Date getDataEntrada() {
+        return dataEntrada;
+    }
+
+    public void setDataEntrada(Date dataEntrada) {
+        this.dataEntrada = dataEntrada;
+    }
+
+    public Date getDataAdocao() {
+        return dataAdocao;
+    }
+
+    public void setDataAdocao(Date dataAdocao) {
+        this.dataAdocao = dataAdocao;
+    }
+
+    public IdStatus getIdStatus() {
+        return idStatus;
+    }
+
+    public void setIdStatus(IdStatus idStatus) {
+        this.idStatus = idStatus;
     }
 }
