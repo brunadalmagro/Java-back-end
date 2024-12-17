@@ -11,7 +11,7 @@ import java.util.Optional;
 public interface RepositorioMeme extends JpaRepository<Meme, Long> {
 
     // Adiciona um método para buscar um meme aleatório
-    Optional<Meme> findTopByOrderByIdAsc();  // Exemplo para um sorteio aleatório
+    Optional<Meme> findTopByOrderByIdAsc();
 
     // Usando um SELECT com LIMIT para pegar um aleatório
     @Query("SELECT m FROM Meme m ORDER BY RAND()")

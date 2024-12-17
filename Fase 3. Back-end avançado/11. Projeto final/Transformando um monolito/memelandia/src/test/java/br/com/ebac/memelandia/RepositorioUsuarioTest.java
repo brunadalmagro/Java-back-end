@@ -32,7 +32,7 @@ public class RepositorioUsuarioTest {
     public void testSaveUsuario() {
         Usuario savedUsuario = repositorioUsuario.save(usuario);
         assertNotNull(savedUsuario.getId());
-        assertEquals("Ana Banana", savedUsuario.getNome());  // Corrigido o nome esperado
+        assertEquals("Ana Banana", savedUsuario.getNome());
     }
 
     @Test
